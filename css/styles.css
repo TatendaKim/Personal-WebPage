@@ -1,0 +1,92 @@
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+/* Header styles */
+header {
+    /* Set background properties */
+    background-size: cover; /* Cover the entire header with the background image */
+    background-position: center; /* Center the background image */
+    background-repeat: no-repeat; /* Prevent the background from repeating */
+
+    /* Additional styling for readability */
+    color: white; /* Text color on the header */
+    text-align: center;
+    padding: 8rem 4rem;
+    position: relative; /* To allow absolute positioning of profile picture */
+}
+
+/* Stylish profile picture */
+.profile-picture {
+    width: 250px; /* Adjust the width as needed */
+    height: 250px; /* Adjust the height as needed */
+    border-radius: 80%; /* Makes the image round */
+    position: absolute;
+    top: 50px; /* Adjust the top position to your preference */
+    right: 50px; /* Adjust the right position to your preference */
+}
+
+/* Container styles */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+    background-color: white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px; /* Add spacing between containers */
+}
+
+/* Stylish bio section */
+.bio {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-top: 1.5rem;
+    color: #333; /* Dark text color */
+}
+
+/* Stylish headings in containers */
+.container h2 {
+    background-color: #333; /* Dark background color */
+    color: white; /* Text color for headings */
+    padding: 0.5rem 1rem; /* Padding for headings */
+    border-radius: 4px; /* Rounded corners for headings */
+    margin-top: 20px; /* Add spacing between headings and content */
+}
+
+/* Style the list of skills in the bio section */
+.bio p {
+    margin-bottom: 1rem; /* Add spacing between skills */
+}
+
+/* Footer styles (retained from previous CSS) */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+}
+/* Style for my YouTube icon and link */
+.social-icons {
+    margin-top: 20px;
+}
+
+.social-icons a {
+    text-decoration: none;
+    margin-right: 20px; /* Add spacing between icons */
+    color: white; /* Set link text color to white */
+}
+
+.social-icons img {
+    width: 40px; /* Adjust the icon width as needed */
+    height: 40px; /* Adjust the icon height as needed */
+    border-radius: 50%; /* Makes the image round */
+    transition: transform 0.2s; /* Add a hover effect */
+}
+
+.social-icons img:hover {
+    transform: scale(1.2); /* Enlarge the icon on hover */
+}
